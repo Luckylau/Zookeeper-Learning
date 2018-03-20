@@ -13,6 +13,41 @@
 
   <dependencyManagement>
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.apache.hadoop/zookeeper -->
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>3.3.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
+    <dependency>
+      <groupId>com.101tec</groupId>
+      <artifactId>zkclient</artifactId>
+      <version>0.10</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+    <dependency>
+      <groupId>org.apache.curator</groupId>
+      <artifactId>curator-framework</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-recipes -->
+    <dependency>
+      <groupId>org.apache.curator</groupId>
+      <artifactId>curator-recipes</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-test -->
+    <dependency>
+      <groupId>org.apache.curator</groupId>
+      <artifactId>curator-test</artifactId>
+      <version>4.0.0</version>
+      <scope>test</scope>
+    </dependency>
+
+
+
+
 
   </dependencies>
 
