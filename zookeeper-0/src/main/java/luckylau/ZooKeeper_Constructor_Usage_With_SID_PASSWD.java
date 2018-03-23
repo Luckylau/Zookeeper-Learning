@@ -44,7 +44,7 @@ public class ZooKeeper_Constructor_Usage_With_SID_PASSWD {
         //使用合法Id
         CountDownLatch countDownLatch3 = new CountDownLatch(1);
         try {
-            zooKeeper = new ZooKeeper("119.27.162.88:2181", 5000, new MyWatcher(countDownLatch3),1111L, passwd);
+            zooKeeper = new ZooKeeper("172.27.162.88:2181", 5000, new MyWatcher(countDownLatch3),1111L, passwd);
             System.out.println(zooKeeper.getState());
         } catch (IOException e) {
             e.printStackTrace();

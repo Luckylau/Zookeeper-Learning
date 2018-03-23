@@ -16,7 +16,7 @@ public class ZooKeeper_Constructor_Usage_Simple {
     public static void main( String[] args ) {
 
         try {
-            ZooKeeper zooKeeper = new ZooKeeper("119.27.162.88:2181", 5000, new MyWatcher(countDownLatch));
+            ZooKeeper zooKeeper = new ZooKeeper("172.27.162.88:2181", 5000, new MyWatcher(countDownLatch));
             System.out.println(zooKeeper.getState());
         } catch (IOException e) {
             e.printStackTrace();
